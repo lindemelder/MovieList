@@ -1,0 +1,19 @@
+﻿@model  MovieList.Database.Movies
+
+@{
+    ViewBag.Title = "MovieDetails";
+}
+
+<h2>MovieDetails</h2>
+
+<div class="container">
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.Title)</dt>
+        <dd>@Html.DisplayFor(model => model.Title)</dd>
+        <dt>@Html.DisplayNameFor(model => model.Genre.Genre1) </dt>
+        <dd>@Html.DisplayFor(model => model.Genre.Genre1) </dd>
+        <dt>@Html.DisplayNameFor(model => model.ReleaseDate)</dt>
+        <dd>@Html.DisplayFor(model => model.ReleaseDate)</dd>
+    </dl>
+    <div>@Html.ActionLink("Return to Movies", "Index")</div>
+</div>

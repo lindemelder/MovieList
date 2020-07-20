@@ -1,0 +1,190 @@
+﻿/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}*/
+
+/* Set padding to keep content from hitting the edges */
+/*.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/** , body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+/* Main styles */
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 20px 0;
+}
+/* Utility Styling */
+.container-1 {
+    margin: auto;
+    max-width: 2000px !important;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.bg-dark {
+    background: black;
+    color: #fff;
+}
+
+/* Showcase Styles */
+.showcase {
+    background: url('./images/theater.jpg') no-repeat center center/cover;
+    height: 550px;
+    /*width: 100vw;*/
+}
+
+.showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 105px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.primary-text {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.showcase-content h1 {
+    font-size: 60px;
+}
+
+.showcase-content p {
+    /*line-height: 1.7em*/
+}
+
+/* Movie Info Styles */
+#movie-info {
+    height: 400px;
+    /*width: 100vw;*/
+}
+
+    #movie-info .info-img {
+        float: left;
+        width: 50%;
+        background: url('./images/movie-reel-1.jpg') no-repeat center center/cover;/*/cover*/
+        min-height: 100%;
+    }
+
+    #movie-info .movie-content {
+        float: right;
+        width: 50%;
+        height: 100%;
+        padding: 10px 10px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+.movie-content h2 {
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.movie-content p {
+    font-size: 20px;
+}
+
+.movie-content .italics {
+    font-style: italic;
+}
+
+/*Movie List table Styles*/
+/*.movie-list-img{
+    background: url('images/movie-reel-1.jpg') no-repeat center center/cover;
+}*/
+
+
+/*anchor tag styles and actionlink styles*/
+.anchorStyles {
+    /*padding: 5px;
+    margin: 10px;
+    width: 100%;
+    background: #333;
+    color: #fff;*/
+    display: inline-block;
+    font-size: 18px;
+    background: black;
+    text-decoration: none !important;
+    color: white !important;
+    padding: 13px 20px;
+    margin-left: 500px;
+    border: none;
+    cursor: pointer;
+}
+    .anchorStyles:hover {
+        background: #808080;
+        color: white;
+    }
+/*Home action link*/
+.home-action-link {
+    /*padding: 5px;
+    margin: 10px;
+    width: 100%;
+    background: #333;
+    color: #fff;*/
+    display: inline-block;
+    font-size: 18px;
+    background: white;
+    text-decoration: none !important;
+    color: black !important;
+    opacity: 0.7;
+    padding: 13px 15px;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+}
+.home-action-link:hover{
+    background: #808080;
+    color: white;
+}
+/*footer Styling*/
+
+
+ 
