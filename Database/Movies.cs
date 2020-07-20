@@ -19,7 +19,7 @@ namespace MovieList.Database
         public int ID { get; set; }
         public string Title { get; set; }
         [DisplayName("Release Date")]
-        [DisplayFormat(DataFormatString = "{0:yyyy}")]
+        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
         public Nullable<System.DateTime> ReleaseDate { get; set; }
         public Nullable<int> GenreID { get; set; }
     
